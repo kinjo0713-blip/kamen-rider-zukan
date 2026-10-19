@@ -14,12 +14,17 @@
 
   <main>
     <section class="controls" aria-label="絞り込み">
-      <input id="search" type="search" placeholder="名前・作品・変身者で検索" aria-label="検索">
+      <input id="search" type="search" placeholder="名前・作品・変身者・ベルト・フォームで検索" aria-label="検索">
       <div class="era-filter" role="group" aria-label="時代">
         <button type="button" data-era="すべて" class="active">すべて</button>
         <button type="button" data-era="昭和">昭和</button>
         <button type="button" data-era="平成">平成</button>
         <button type="button" data-era="令和">令和</button>
+      </div>
+      <div class="era-filter role-filter" role="group" aria-label="種類">
+        <button type="button" data-role="すべて" class="active">全ライダー</button>
+        <button type="button" data-role="主役">主役</button>
+        <button type="button" data-role="2号ライダー">2号ライダー</button>
       </div>
       <p id="count" class="count"></p>
     </section>
@@ -29,8 +34,11 @@
 
   <dialog id="detail">
     <article>
+      <div id="detail-image" class="detail-image"></div>
       <h2 id="detail-name"></h2>
       <dl id="detail-body"></dl>
+      <section id="detail-forms" class="detail-section"></section>
+      <section id="detail-related" class="detail-section"></section>
       <form method="dialog"><button>閉じる</button></form>
     </article>
   </dialog>

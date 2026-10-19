@@ -9,6 +9,7 @@ HTML / CSS / JavaScript だけで動く静的サイトなので、GitHub Pages �
 - `style.css` … 見た目
 - `app.js` … 一覧表示・検索・時代絞り込み・詳細表示
 - `data/riders.json` … ライダーのデータ
+- `images/` … ライダー画像を置くフォルダ
 
 ## ライダーを追加する
 
@@ -23,9 +24,17 @@ HTML / CSS / JavaScript だけで動く静的サイトなので、GitHub Pages �
   "era": "平成",
   "transformer": "五代雄介",
   "actor": "オダギリジョー",
+  "role": "主役",
+  "belt": "アークル",
+  "forms": ["マイティフォーム", "ドラゴンフォーム"],
+  "color": "#d32f2f",
+  "image": "",
   "note": ""
 }
 ```
+
+- `role` は「主役」か「2号ライダー」です。同じ `series` のライダーは詳細画面で相互にリンクされます。
+- `color` はイラストの色です。`image` に `images/kuuga.png` のように画像パスを書くと、イラストの代わりに表示されます（詳しくは `images/README.md`）。
 
 ## 手元で確認する
 
