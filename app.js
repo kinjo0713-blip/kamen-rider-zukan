@@ -6,8 +6,10 @@ const countEl = document.getElementById("count");
 const dialog = document.getElementById("detail");
 
 async function load() {
-  const res = await fetch("data/riders.json");
-  state.riders = await res.json();
+  // 更新後に古いデータがキャッシュから読まれないよう、毎回サーバーに確認する
+  const res = await fetch(`data/riders.json?v=${Date.now()}`, { cache: "no-store" });
+  const data = await res.json();
+  state.riders = data.map((r) => ({ role: "主役", forms: [], ...r }));
   render();
 }
 
