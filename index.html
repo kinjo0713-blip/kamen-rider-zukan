@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>仮面ライダー図鑑</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>仮面ライダー図鑑</h1>
+    <p class="lead">歴代の仮面ライダーを、時代や名前で探せる図鑑です。</p>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="絞り込み">
+      <input id="search" type="search" placeholder="名前・作品・変身者で検索" aria-label="検索">
+      <div class="era-filter" role="group" aria-label="時代">
+        <button type="button" data-era="すべて" class="active">すべて</button>
+        <button type="button" data-era="昭和">昭和</button>
+        <button type="button" data-era="平成">平成</button>
+        <button type="button" data-era="令和">令和</button>
+      </div>
+      <p id="count" class="count"></p>
+    </section>
+
+    <section id="list" class="grid" aria-live="polite"></section>
+  </main>
+
+  <dialog id="detail">
+    <article>
+      <h2 id="detail-name"></h2>
+      <dl id="detail-body"></dl>
+      <form method="dialog"><button>閉じる</button></form>
+    </article>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>ファンが作成した非公式の図鑑です。</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

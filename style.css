@@ -1,0 +1,107 @@
+:root {
+  --bg: #f6f6f4;
+  --surface: #ffffff;
+  --text: #1c1c1c;
+  --muted: #666;
+  --accent: #c8102e;
+  --border: #ddd;
+  --showa: #6b4f2a;
+  --heisei: #1f5fa8;
+  --reiwa: #2a8a4a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --surface: #1e1e1e;
+    --text: #eee;
+    --muted: #aaa;
+    --border: #333;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+.site-header {
+  background: var(--accent);
+  color: #fff;
+  padding: 24px 16px;
+  text-align: center;
+}
+.site-header h1 { margin: 0; font-size: 1.8rem; letter-spacing: .1em; }
+.lead { margin: 4px 0 0; opacity: .9; }
+main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 16px; }
+#search {
+  flex: 1 1 240px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+}
+.era-filter { display: flex; gap: 6px; }
+.era-filter button {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+.era-filter button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.count { width: 100%; margin: 0; color: var(--muted); font-size: .9rem; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: transform .1s, box-shadow .1s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.card h3 { margin: 6px 0 4px; font-size: 1.05rem; }
+.card p { margin: 0; color: var(--muted); font-size: .9rem; }
+.badge {
+  display: inline-block;
+  font-size: .75rem;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.badge.昭和 { background: var(--showa); }
+.badge.平成 { background: var(--heisei); }
+.badge.令和 { background: var(--reiwa); }
+dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 420px;
+  width: calc(100% - 32px);
+  background: var(--surface);
+  color: var(--text);
+}
+dialog::backdrop { background: rgba(0,0,0,.5); }
+dialog h2 { margin-top: 0; }
+dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; }
+dt { color: var(--muted); }
+dd { margin: 0; }
+dialog button { padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); cursor: pointer; }
+.site-footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 24px 16px; }

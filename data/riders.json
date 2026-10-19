@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ichigo",
+    "name": "仮面ライダー1号",
+    "series": "仮面ライダー",
+    "year": 1971,
+    "era": "昭和",
+    "transformer": "本郷猛",
+    "actor": "藤岡弘、",
+    "note": ""
+  },
+  {
+    "id": "kuuga",
+    "name": "仮面ライダークウガ",
+    "series": "仮面ライダークウガ",
+    "year": 2000,
+    "era": "平成",
+    "transformer": "五代雄介",
+    "actor": "オダギリジョー",
+    "note": ""
+  },
+  {
+    "id": "agito",
+    "name": "仮面ライダーアギト",
+    "series": "仮面ライダーアギト",
+    "year": 2001,
+    "era": "平成",
+    "transformer": "津上翔一",
+    "actor": "賀集利樹",
+    "note": ""
+  },
+  {
+    "id": "ryuki",
+    "name": "仮面ライダー龍騎",
+    "series": "仮面ライダー龍騎",
+    "year": 2002,
+    "era": "平成",
+    "transformer": "城戸真司",
+    "actor": "須賀貴匡",
+    "note": ""
+  },
+  {
+    "id": "faiz",
+    "name": "仮面ライダーファイズ",
+    "series": "仮面ライダー555",
+    "year": 2003,
+    "era": "平成",
+    "transformer": "乾巧",
+    "actor": "半田健人",
+    "note": ""
+  },
+  {
+    "id": "blade",
+    "name": "仮面ライダーブレイド",
+    "series": "仮面ライダー剣",
+    "year": 2004,
+    "era": "平成",
+    "transformer": "剣崎一真",
+    "actor": "椿隆之",
+    "note": ""
+  },
+  {
+    "id": "hibiki",
+    "name": "仮面ライダー響鬼",
+    "series": "仮面ライダー響鬼",
+    "year": 2005,
+    "era": "平成",
+    "transformer": "ヒビキ",
+    "actor": "細川茂樹",
+    "note": ""
+  },
+  {
+    "id": "kabuto",
+    "name": "仮面ライダーカブト",
+    "series": "仮面ライダーカブト",
+    "year": 2006,
+    "era": "平成",
+    "transformer": "天道総司",
+    "actor": "水嶋ヒロ",
+    "note": ""
+  },
+  {
+    "id": "den-o",
+    "name": "仮面ライダー電王",
+    "series": "仮面ライダー電王",
+    "year": 2007,
+    "era": "平成",
+    "transformer": "野上良太郎",
+    "actor": "佐藤健",
+    "note": ""
+  },
+  {
+    "id": "kiva",
+    "name": "仮面ライダーキバ",
+    "series": "仮面ライダーキバ",
+    "year": 2008,
+    "era": "平成",
+    "transformer": "紅渡",
+    "actor": "瀬戸康史",
+    "note": ""
+  },
+  {
+    "id": "decade",
+    "name": "仮面ライダーディケイド",
+    "series": "仮面ライダーディケイド",
+    "year": 2009,
+    "era": "平成",
+    "transformer": "門矢士",
+    "actor": "井上正大",
+    "note": ""
+  },
+  {
+    "id": "w",
+    "name": "仮面ライダーW",
+    "series": "仮面ライダーW",
+    "year": 2009,
+    "era": "平成",
+    "transformer": "左翔太郎・フィリップ",
+    "actor": "桐山漣・菅田将暉",
+    "note": ""
+  },
+  {
+    "id": "ooo",
+    "name": "仮面ライダーオーズ",
+    "series": "仮面ライダーオーズ/OOO",
+    "year": 2010,
+    "era": "平成",
+    "transformer": "火野映司",
+    "actor": "渡部秀",
+    "note": ""
+  },
+  {
+    "id": "fourze",
+    "name": "仮面ライダーフォーゼ",
+    "series": "仮面ライダーフォーゼ",
+    "year": 2011,
+    "era": "平成",
+    "transformer": "如月弦太朗",
+    "actor": "福士蒼汰",
+    "note": ""
+  },
+  {
+    "id": "wizard",
+    "name": "仮面ライダーウィザード",
+    "series": "仮面ライダーウィザード",
+    "year": 2012,
+    "era": "平成",
+    "transformer": "操真晴人",
+    "actor": "白石隼也",
+    "note": ""
+  },
+  {
+    "id": "gaim",
+    "name": "仮面ライダー鎧武",
+    "series": "仮面ライダー鎧武/ガイム",
+    "year": 2013,
+    "era": "平成",
+    "transformer": "葛葉紘汰",
+    "actor": "佐野岳",
+    "note": ""
+  },
+  {
+    "id": "drive",
+    "name": "仮面ライダードライブ",
+    "series": "仮面ライダードライブ",
+    "year": 2014,
+    "era": "平成",
+    "transformer": "泊進ノ介",
+    "actor": "竹内涼真",
+    "note": ""
+  },
+  {
+    "id": "ghost",
+    "name": "仮面ライダーゴースト",
+    "series": "仮面ライダーゴースト",
+    "year": 2015,
+    "era": "平成",
+    "transformer": "天空寺タケル",
+    "actor": "西銘駿",
+    "note": ""
+  },
+  {
+    "id": "ex-aid",
+    "name": "仮面ライダーエグゼイド",
+    "series": "仮面ライダーエグゼイド",
+    "year": 2016,
+    "era": "平成",
+    "transformer": "宝生永夢",
+    "actor": "飯島寛騎",
+    "note": ""
+  },
+  {
+    "id": "build",
+    "name": "仮面ライダービルド",
+    "series": "仮面ライダービルド",
+    "year": 2017,
+    "era": "平成",
+    "transformer": "桐生戦兎",
+    "actor": "犬飼貴丈",
+    "note": ""
+  },
+  {
+    "id": "zi-o",
+    "name": "仮面ライダージオウ",
+    "series": "仮面ライダージオウ",
+    "year": 2018,
+    "era": "平成",
+    "transformer": "常磐ソウゴ",
+    "actor": "奥野壮",
+    "note": ""
+  },
+  {
+    "id": "zero-one",
+    "name": "仮面ライダーゼロワン",
+    "series": "仮面ライダーゼロワン",
+    "year": 2019,
+    "era": "令和",
+    "transformer": "飛電或人",
+    "actor": "高橋文哉",
+    "note": ""
+  },
+  {
+    "id": "saber",
+    "name": "仮面ライダーセイバー",
+    "series": "仮面ライダーセイバー",
+    "year": 2020,
+    "era": "令和",
+    "transformer": "神山飛羽真",
+    "actor": "内藤秀一郎",
+    "note": ""
+  },
+  {
+    "id": "revice",
+    "name": "仮面ライダーリバイ",
+    "series": "仮面ライダーリバイス",
+    "year": 2021,
+    "era": "令和",
+    "transformer": "五十嵐一輝",
+    "actor": "前田拳太郎",
+    "note": ""
+  },
+  {
+    "id": "geats",
+    "name": "仮面ライダーギーツ",
+    "series": "仮面ライダーギーツ",
+    "year": 2022,
+    "era": "令和",
+    "transformer": "浮世英寿",
+    "actor": "簡秀吉",
+    "note": ""
+  },
+  {
+    "id": "gotchard",
+    "name": "仮面ライダーガッチャード",
+    "series": "仮面ライダーガッチャード",
+    "year": 2023,
+    "era": "令和",
+    "transformer": "一ノ瀬宝太郎",
+    "actor": "本島純政",
+    "note": ""
+  },
+  {
+    "id": "gavv",
+    "name": "仮面ライダーガヴ",
+    "series": "仮面ライダーガヴ",
+    "year": 2024,
+    "era": "令和",
+    "transformer": "ショウマ",
+    "actor": "知念英和",
+    "note": ""
+  }
+]
